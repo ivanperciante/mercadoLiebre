@@ -1,0 +1,100 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0%;
+    padding: 0%
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.banner{
+    width: 100%
+}
+
+h2{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    font-weight: bold;
+}
+
+.descripciones{
+    font-size: 16px;
+}
+
+.fas.fa-bars{
+    background-color: #1259c3;
+    color:white;
+    border: solid 1px #1259c3;;
+    margin: 5% 45%;
+    padding: 7px;
+    border-radius: 30%;
+}
+
+.fa-solid.fa-magnifying-glass{
+    background-color: white;
+    border: solid black
+}
+
+.cuotas{
+    margin: 5% 20%
+}
+
+.buscador{
+    margin: 5% 20%
+}
+
+.images{
+    width: 80%;
+}
+
+footer{
+    text-align: center;
+}
+
+.fa-solid.fa-credit-card{
+    color: #1259c3;;
+    margin: 10px;
+    font-size: 2em
+}
+
+.fa-solid.fa-gift{
+    color: #1259c3;;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.fa-solid.fa-user-shield{
+    color: #1259c3;;
+    margin: 10px 10px 10px 20px;
+    font-size: 2em;
+}
+
+main{
+    background-color: #ebebeb;;
+}
+
+article{
+    background-color: white;
+    text-align: center;
+    border: solid 3px black;
+    margin: 5%;
+    padding-bottom: 5%;
+}
+
+.pie{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+ul{
+    margin-left: 5%
+}
