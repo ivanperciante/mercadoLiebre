@@ -1,7 +1,8 @@
 *{
     font-family: 'Roboto', sans-serif;
     margin:0%;
-    padding: 0%
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 header{
@@ -100,7 +101,8 @@ article{
 }
 
 ul{
-    margin-left: 5%
+    margin-left: 5%;
+    display: none;
 }
 
 .fa-solid.fa-truck{
@@ -117,11 +119,35 @@ ul{
     margin: 15px
 }
 
+h4{
+    display:none
+}
+
 
 @media (min-width: 361px){
-    
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 30%;
+        display: inline-block;
+        padding-bottom: 2%;
+    }
+    h4{
+        display: block;
+    }
+    ul{
+        display: block;
+    }
 }
 
 @media (min-width: 769px){
-
+    
+    .fas.fa-bars{
+        display: none;
+    }
+    article{
+        width: 20%;
+    }
+    section{
+        padding-left: 10%;
+    }
 }
